@@ -9,5 +9,5 @@
  * @author jsingh
  */
 public interface Shape {
-    public void draw();
+    public String toString();
 }

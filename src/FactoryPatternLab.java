@@ -8,7 +8,7 @@
  *
  * @author jsingh
  */
-public class MainApp {
+public class FactoryPatternLab {
 
     public static void main(String args[]) {
         AbstractFactory s = FactoryProducer.getFactory(FactoryTypeEnum.SHAPE);
@@ -22,12 +22,12 @@ public class MainApp {
         Color blue = c.getColorObject(ColorEnum.BLUE);
         Color green = c.getColorObject(ColorEnum.GREEN);
         
-        square.draw();
-        circle.draw();
-        line.draw();
+        System.out.println(square.toString());
+        System.out.println(circle.toString());
+        System.out.println(line.toString());
         
-        red.color();
-        blue.color();
-        green.color();
+        System.out.println(red.toString());
+        System.out.println(blue.toString());
+        System.out.println(green.toString());
     }
 }

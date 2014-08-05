@@ -9,5 +9,5 @@
  * @author jsingh
  */
 public interface Color {
-    public void color();
+    public String toString();
 }

@@ -11,8 +11,8 @@
 public class Green implements Color {
 
     @Override
-    public void color() {
-        System.out.println("Coloring green");
+    public String toString() {
+        return "Coloring green";
     }
     
 }

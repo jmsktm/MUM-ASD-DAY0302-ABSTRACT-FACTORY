@@ -11,8 +11,8 @@
 public class Line implements Shape{
 
     @Override
-    public void draw() {
-        System.out.println("Drawing line");
+    public String toString() {
+        return "Drawing line";
     }
     
 }
